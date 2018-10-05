@@ -15,7 +15,7 @@ class MealListTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Meals list"
-
+        tableView.tableFooterView = UIView()
         loadMeals()
     }
 
